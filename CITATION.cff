@@ -7,6 +7,6 @@ authors:
     website: "https://hygeoworks.com/en/"
 url: "https://hygeoworks.com/en/benchmarks/"
 repository-code: "https://github.com/hygeoworks/hydrostudio-benchmarks"
-version: "1.0.0"
+version: "1.0.1"
 date-released: "2026-11-21"
 license: CC-BY-4.0

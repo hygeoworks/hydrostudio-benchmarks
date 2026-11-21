@@ -3,7 +3,7 @@
 Public benchmark data for the **HyGeoWorks HydroStudio** calculation core (hydrology, hydraulics, detention, slope stability, retaining walls, check dams, 2D flood and coordinate transformation).
 The same Rust calculation core runs the Windows desktop program, the `hydro` command line and the browser calculators at [hygeoworks.com](https://hygeoworks.com/).
 
-**Release 1.0.0, run 2026-11-21: 69 of 69 cases pass** (failed 0, errors 0).
+**Release 1.0.1, run 2026-11-21: 69 of 69 cases pass** (failed 0, errors 0).
 Reference values by kind: Published example / tabulated value 51; Analytical solution 7; Verification example from other software 9; Independent-implementation example (not from literature) 2.
 
 Key cross-check metrics:
@@ -56,7 +56,7 @@ Browser calculators compile the identical Rust calculation core to WebAssembly (
    hydro.exe verify-benchmarks --include-slow --out results
    ```
 
-3. Compare `results\benchmarks.json` (and `benchmarks.md`, `.xlsx`, `.docx`, written in Traditional Chinese) with [`cases.json`](cases.json), whose computed values come from the release executable with SHA-256 `739d2eb756cda874c826237aefe701356f2df6049ba484538139cab499f17e33`.
+3. Compare `results\benchmarks.json` (and `benchmarks.md`, `.xlsx`, `.docx`, written in Traditional Chinese) with [`cases.json`](cases.json), whose computed values come from the release executable with SHA-256 `d5fcdef737cd05edc1b596d3c87eb15e6c97ecd479fe9fc542d03f1430d005ba`.
 
 `hydro.exe verify-benchmarks --list` prints every case with its reference value and source. Runs are deterministic: the same release gives the same computed values.
 
@@ -69,14 +69,14 @@ They check the calculation core against published worked examples, tabulated val
 
 ## 繁體中文
 
-本倉庫公開 HyGeoWorks HydroStudio 計算核心之 69 項驗證基準資料（1.0.0 版，2026-11-21 執行，通過 69 項）：案例、參考值與出處、判定目標與勘誤依據、容許差、計算值與判定，不含原始碼、資料庫與授權機制。安裝免費試用評估版後，於安裝資料夾執行 `hydro.exe verify-benchmarks --include-slow --out results` 即可自行重現。
+本倉庫公開 HyGeoWorks HydroStudio 計算核心之 69 項驗證基準資料（1.0.1 版，2026-11-21 執行，通過 69 項）：案例、參考值與出處、判定目標與勘誤依據、容許差、計算值與判定，不含原始碼、資料庫與授權機制。安裝免費試用評估版後，於安裝資料夾執行 `hydro.exe verify-benchmarks --include-slow --out results` 即可自行重現。
 
 - 案例逐項表與勘誤見 [https://hygeoworks.com/benchmarks/](https://hygeoworks.com/benchmarks/) · 免安裝線上計算工作臺：[https://hygeoworks.com/tw/tools/](https://hygeoworks.com/tw/tools/)
 - 審查委員與大專教師免費授權申請：[https://hygeoworks.com/verify/#academic-reviewer-license](https://hygeoworks.com/verify/#academic-reviewer-license)
 
 ## 日本語
 
-HyGeoWorks HydroStudio の計算コアの検証ベンチマーク 69 件（1.0.0 版、2026-11-21 実行、69 件合格）のデータを公開しています。事例、参照値と出典、許容差、計算値と判定のみで、ソースコード・データベース・ライセンス機構は含みません。無料の評価版をインストールし、インストール先で `hydro.exe verify-benchmarks --include-slow --out results` を実行すると、同じ結果を確認できます。
+HyGeoWorks HydroStudio の計算コアの検証ベンチマーク 69 件（1.0.1 版、2026-11-21 実行、69 件合格）のデータを公開しています。事例、参照値と出典、許容差、計算値と判定のみで、ソースコード・データベース・ライセンス機構は含みません。無料の評価版をインストールし、インストール先で `hydro.exe verify-benchmarks --include-slow --out results` を実行すると、同じ結果を確認できます。
 
 - 検証事例の概要・試用版：[https://hygeoworks.com/ja/benchmarks/](https://hygeoworks.com/ja/benchmarks/) · [https://hygeoworks.com/ja/downloads/](https://hygeoworks.com/ja/downloads/)
 - インストール不要のオンラインツール：[https://hygeoworks.com/ja/tools/](https://hygeoworks.com/ja/tools/)
@@ -84,5 +84,5 @@ HyGeoWorks HydroStudio の計算コアの検証ベンチマーク 69 件（1.0.0
 
 ## License
 
-The data and documents in this repository are licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). Cite as: Ascend Neural, LLC (HyGeoWorks), *HydroStudio verification benchmarks*, release 1.0.0.
+The data and documents in this repository are licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). Cite as: Ascend Neural, LLC (HyGeoWorks), *HydroStudio verification benchmarks*, release 1.0.1.
 HydroStudio itself is commercial software and is not covered by this licence.
