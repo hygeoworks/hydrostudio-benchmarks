@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+title: "HydroStudio verification benchmarks"
+message: "If you cite this engineering verification dataset or documented literature errata, please cite it using these metadata."
+type: dataset
+authors:
+  - name: "Ascend Neural, LLC (HyGeoWorks)"
+    website: "https://hygeoworks.com/en/"
+url: "https://hygeoworks.com/en/benchmarks/"
+repository-code: "https://github.com/hygeoworks/hydrostudio-benchmarks"
+version: "1.0.0"
+date-released: "2026-11-21"
+license: CC-BY-4.0

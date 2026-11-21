@@ -6,6 +6,12 @@ The same Rust calculation core runs the Windows desktop program, the `hydro` com
 **Release 1.0.0, run 2026-11-21: 69 of 69 cases pass** (failed 0, errors 0).
 Reference values by kind: Published example / tabulated value 51; Analytical solution 7; Verification example from other software 9; Independent-implementation example (not from literature) 2.
 
+Key cross-check metrics:
+- **EPA SWMM 5.2.4** (`X-01`–`X-04`): free-surface drainage peak flow diff **<= 0.02%**, NSE **>= 0.9997**; HEC-22 inlets (142 cases) max relative diff **0.019%** (see [`EXTERNAL.md`](EXTERNAL.md)).
+- **Rocscience Slide2** verification examples (`S-03`–`S-07`, `S-10`, `S-11`): factor of safety within **±0.005** for slopes with a horizontal support, micropiles, soil nails and five reinforcement layers.
+- **Browser WebAssembly vs. Desktop parity**: **376 cases / 101,613 values** compared on 2026-11-13 with largest relative difference **`<= 4.9 × 10⁻¹⁶`**.
+- **Documented errata**: in **11 cases** the published value contains a misprint, an irreproducible reading or rounded intermediates; it is kept unaltered and the target actually checked is documented in [`ERRATA.md`](ERRATA.md).
+
 This repository contains data only: case definitions, reference values and sources, tolerances, computed values and results. It contains no source code, no data library and no licensing code.
 
 ## Results by group
@@ -25,9 +31,21 @@ This repository contains data only: case definitions, reference values and sourc
 | Project workflow (embedded project file, via the project-file runner) | 2 | 2 |
 | Liquefaction and piles (independent-implementation examples, not from literature) | 2 | 2 |
 
-- [`cases.csv`](cases.csv) / [`cases.json`](cases.json): every case with its reference value, source, tolerance, computed value and result (English; the original Traditional Chinese title is kept in `cases.json`). The computed values are those of the release executable listed in `cases.json` (`meta`).
+- [`cases.csv`](cases.csv) / [`cases.json`](cases.json): every case with its published reference value, the target actually checked (`target`, equal to the reference unless listed in `ERRATA.md`) and its basis, source, tolerance, computed value, difference from the target and result (English; the original Traditional Chinese title is kept in `cases.json`). The computed values are those of the release executable listed in `cases.json` (`meta`).
+- [`ERRATA.md`](ERRATA.md): side-by-side table of the 11 cases with published example misprints or target adjustments.
 - [`EXTERNAL.md`](EXTERNAL.md): comparisons with EPA SWMM 5.2.4 and GDAL/PROJ (recorded values).
 - [`EXCLUDED.md`](EXCLUDED.md): items examined but not counted, with the reason.
+- [`CITATION.cff`](CITATION.cff): citation metadata for GitHub's "Cite this repository" panel.
+
+## Try the same core online (no installation)
+
+Browser calculators compile the identical Rust calculation core to WebAssembly (`<= 4.9 × 10⁻¹⁶` relative difference vs. desktop); trial inputs stay locally in your browser:
+
+- **International (SI, English)**: [https://hygeoworks.com/en/tools/](https://hygeoworks.com/en/tools/) · [Benchmarks](https://hygeoworks.com/en/benchmarks/)
+- **United States (US customary units)**: [https://hygeoworks.com/us/tools/](https://hygeoworks.com/us/tools/)
+- **Taiwan (繁體中文)**: [https://hygeoworks.com/tw/tools/](https://hygeoworks.com/tw/tools/) · [驗證紀錄](https://hygeoworks.com/benchmarks/)
+- **Japan (日本語)**: [https://hygeoworks.com/ja/tools/](https://hygeoworks.com/ja/tools/) · [検証事例](https://hygeoworks.com/ja/benchmarks/)
+- **Free licences for PE reviewers and university faculty**: [https://hygeoworks.com/en/verify/#academic-reviewer-license](https://hygeoworks.com/en/verify/#academic-reviewer-license)
 
 ## Reproduce the results yourself
 
@@ -44,18 +62,25 @@ This repository contains data only: case definitions, reference values and sourc
 
 ## What these benchmarks do and do not show
 
-They check the calculation core against published worked examples, tabulated values, other programs' verification examples and analytical solutions, each with a stated tolerance. They do not replace engineering judgment, site investigation or the review and sign-off of a licensed professional engineer. Where a published example contains an error, the error and its effect are recorded instead of widening the tolerance (see `EXCLUDED.md` and the verification page).
+They check the calculation core against published worked examples, tabulated values, other programs' verification examples and analytical solutions, each with a stated tolerance. They do not replace engineering judgment, site investigation or the review and sign-off of a licensed professional engineer. Where a published example contains an error, the error and its effect are recorded instead of widening the tolerance (see [`ERRATA.md`](ERRATA.md), [`EXCLUDED.md`](EXCLUDED.md) and the verification page).
 
 - Verification page (case tables, errata): [https://hygeoworks.com/en/benchmarks/](https://hygeoworks.com/en/benchmarks/) · [https://hygeoworks.com/benchmarks/](https://hygeoworks.com/benchmarks/)
 - Check a calculation report's verification code: [https://hygeoworks.com/en/verify/](https://hygeoworks.com/en/verify/)
 
 ## 繁體中文
 
-本倉庫公開 HyGeoWorks HydroStudio 計算核心之 69 項驗證基準資料（1.0.0 版，2026-11-21 執行，通過 69 項）：案例、參考值與出處、容許差、計算值與判定，不含原始碼、資料庫與授權機制。安裝免費試用評估版後，於安裝資料夾執行 `hydro.exe verify-benchmarks --include-slow --out results` 即可自行重現。案例逐項表與勘誤見 [https://hygeoworks.com/benchmarks/](https://hygeoworks.com/benchmarks/)。
+本倉庫公開 HyGeoWorks HydroStudio 計算核心之 69 項驗證基準資料（1.0.0 版，2026-11-21 執行，通過 69 項）：案例、參考值與出處、判定目標與勘誤依據、容許差、計算值與判定，不含原始碼、資料庫與授權機制。安裝免費試用評估版後，於安裝資料夾執行 `hydro.exe verify-benchmarks --include-slow --out results` 即可自行重現。
+
+- 案例逐項表與勘誤見 [https://hygeoworks.com/benchmarks/](https://hygeoworks.com/benchmarks/) · 免安裝線上計算工作臺：[https://hygeoworks.com/tw/tools/](https://hygeoworks.com/tw/tools/)
+- 審查委員與大專教師免費授權申請：[https://hygeoworks.com/verify/#academic-reviewer-license](https://hygeoworks.com/verify/#academic-reviewer-license)
 
 ## 日本語
 
 HyGeoWorks HydroStudio の計算コアの検証ベンチマーク 69 件（1.0.0 版、2026-11-21 実行、69 件合格）のデータを公開しています。事例、参照値と出典、許容差、計算値と判定のみで、ソースコード・データベース・ライセンス機構は含みません。無料の評価版をインストールし、インストール先で `hydro.exe verify-benchmarks --include-slow --out results` を実行すると、同じ結果を確認できます。
+
+- 検証事例の概要・試用版：[https://hygeoworks.com/ja/benchmarks/](https://hygeoworks.com/ja/benchmarks/) · [https://hygeoworks.com/ja/downloads/](https://hygeoworks.com/ja/downloads/)
+- インストール不要のオンラインツール：[https://hygeoworks.com/ja/tools/](https://hygeoworks.com/ja/tools/)
+- 審査担当者・大学教員向け無料ライセンス：[https://hygeoworks.com/ja/verify/#academic-reviewer-license](https://hygeoworks.com/ja/verify/#academic-reviewer-license)
 
 ## License
 

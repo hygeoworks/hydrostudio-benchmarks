@@ -28,6 +28,8 @@
    "computed": 165.56489730125284,
    "diff": -0.005102698747151635,
    "rel_diff": -3.08189813803928e-05,
+   "diff_target": -0.005102698747151635,
+   "rel_diff_target": -3.08189813803928e-05,
    "expected": null,
    "expected_basis": null,
    "tolerance": {
@@ -54,6 +56,8 @@
    "computed": 146.606231353323,
    "diff": -0.0037686466770026072,
    "rel_diff": -2.5705249826086944e-05,
+   "diff_target": -0.0037686466770026072,
+   "rel_diff_target": -2.5705249826086944e-05,
    "expected": null,
    "expected_basis": null,
    "tolerance": {
@@ -80,6 +84,8 @@
    "computed": 1675.2410487175462,
    "diff": 0.011048717546145781,
    "rel_diff": 6.595343652003474e-06,
+   "diff_target": 0.011048717546145781,
+   "rel_diff_target": 6.595343652003474e-06,
    "expected": null,
    "expected_basis": null,
    "tolerance": {
@@ -106,6 +112,8 @@
    "computed": 54.25575656208902,
    "diff": 0.25575656208901876,
    "rel_diff": 0.004736232631278125,
+   "diff_target": 0.25575656208901876,
+   "rel_diff_target": 0.004736232631278125,
    "expected": null,
    "expected_basis": null,
    "tolerance": {
@@ -132,6 +140,8 @@
    "computed": 124.53151312417803,
    "diff": -0.46848687582196646,
    "rel_diff": -0.0037478950065757315,
+   "diff_target": -0.46848687582196646,
+   "rel_diff_target": -0.0037478950065757315,
    "expected": null,
    "expected_basis": null,
    "tolerance": {
@@ -158,6 +168,8 @@
    "computed": 0.2958801178425795,
    "diff": -0.004119882157420485,
    "rel_diff": -0.013732940524734949,
+   "diff_target": -0.004119882157420485,
+   "rel_diff_target": -0.013732940524734949,
    "expected": null,
    "expected_basis": null,
    "tolerance": {
@@ -184,6 +196,8 @@
    "computed": 0.24102940214378438,
    "diff": 0.0010294021437843859,
    "rel_diff": 0.004289175599101608,
+   "diff_target": 0.0010294021437843859,
+   "rel_diff_target": 0.004289175599101608,
    "expected": null,
    "expected_basis": null,
    "tolerance": {
@@ -210,6 +224,8 @@
    "computed": 0.452,
    "diff": -0.0020000000000000018,
    "rel_diff": -0.004405286343612339,
+   "diff_target": -0.0020000000000000018,
+   "rel_diff_target": -0.004405286343612339,
    "expected": null,
    "expected_basis": null,
    "tolerance": {
@@ -236,6 +252,8 @@
    "computed": 141.10823433999855,
    "diff": -0.001765660001467495,
    "rel_diff": -1.2512649716302848e-05,
+   "diff_target": -0.001765660001467495,
+   "rel_diff_target": -1.2512649716302848e-05,
    "expected": null,
    "expected_basis": null,
    "tolerance": {
@@ -262,6 +280,8 @@
    "computed": 163.60599588234075,
    "diff": -4.117659244684546e-06,
    "rel_diff": -2.5168143250764313e-08,
+   "diff_target": -4.117659244684546e-06,
+   "rel_diff_target": -2.5168143250764313e-08,
    "expected": null,
    "expected_basis": null,
    "tolerance": {
@@ -288,6 +308,8 @@
    "computed": 7.9000373850756,
    "diff": 3.738507559969406e-05,
    "rel_diff": 4.732288050594185e-06,
+   "diff_target": 3.738507559969406e-05,
+   "rel_diff_target": 4.732288050594185e-06,
    "expected": null,
    "expected_basis": null,
    "tolerance": {
@@ -314,6 +336,8 @@
    "computed": 9.646947295181524,
    "diff": -0.00305270481847586,
    "rel_diff": -0.0003163424682358404,
+   "diff_target": -0.00305270481847586,
+   "rel_diff_target": -0.0003163424682358404,
    "expected": null,
    "expected_basis": null,
    "tolerance": {
@@ -340,6 +364,8 @@
    "computed": 7.923490307569556,
    "diff": -0.046509692430444005,
    "rel_diff": -0.0058355950351874535,
+   "diff_target": -0.046509692430444005,
+   "rel_diff_target": -0.0058355950351874535,
    "expected": null,
    "expected_basis": null,
    "tolerance": {
@@ -366,6 +392,8 @@
    "computed": 4.705522769340238,
    "diff": 0.005522769340237765,
    "rel_diff": 0.001175057306433567,
+   "diff_target": 0.005522769340237765,
+   "rel_diff_target": 0.001175057306433567,
    "expected": null,
    "expected_basis": null,
    "tolerance": {
@@ -392,6 +420,8 @@
    "computed": 15.227367537662813,
    "diff": -0.07263246233718768,
    "rel_diff": -0.004747219760600501,
+   "diff_target": -0.07263246233718768,
+   "rel_diff_target": -0.004747219760600501,
    "expected": null,
    "expected_basis": null,
    "tolerance": {
@@ -418,6 +448,8 @@
    "computed": 2.5766885511147155,
    "diff": 0.07668855111471551,
    "rel_diff": 0.030675420445886205,
+   "diff_target": 0.07668855111471551,
+   "rel_diff_target": 0.030675420445886205,
    "expected": null,
    "expected_basis": null,
    "tolerance": {
@@ -444,6 +476,8 @@
    "computed": 1.8524508616569553,
    "diff": 0.10245086165695527,
    "rel_diff": 0.05854334951826016,
+   "diff_target": 0.10245086165695527,
+   "rel_diff_target": 0.05854334951826016,
    "expected": null,
    "expected_basis": null,
    "tolerance": {
@@ -470,6 +504,8 @@
    "computed": 2.562,
    "diff": -0.13800000000000034,
    "rel_diff": -0.05111111111111123,
+   "diff_target": 0.0019999999999997797,
+   "rel_diff_target": 0.000781249999999914,
    "expected": 2.56,
    "expected_basis": "2.56 from USBR EM-25 Figure 12 at Fr1 6.9 (the example's reading of 2.7 is inconsistent with Figure 12; this program follows Figure 12)",
    "tolerance": {
@@ -496,6 +532,8 @@
    "computed": 3.225733358754664,
    "diff": 0.025733358754663982,
    "rel_diff": 0.008041674610832494,
+   "diff_target": 0.025733358754663982,
+   "rel_diff_target": 0.008041674610832494,
    "expected": null,
    "expected_basis": null,
    "tolerance": {
@@ -522,6 +560,8 @@
    "computed": 0.3756860950035606,
    "diff": -0.00031390499643940695,
    "rel_diff": -0.000834853713934593,
+   "diff_target": -0.00031390499643940695,
+   "rel_diff_target": -0.000834853713934593,
    "expected": null,
    "expected_basis": null,
    "tolerance": {
@@ -548,6 +588,8 @@
    "computed": 101.44492571282507,
    "diff": -0.055074287174932124,
    "rel_diff": -0.000542603814531351,
+   "diff_target": -0.055074287174932124,
+   "rel_diff_target": -0.000542603814531351,
    "expected": null,
    "expected_basis": null,
    "tolerance": {
@@ -574,6 +616,8 @@
    "computed": 93.00585693296881,
    "diff": -0.19414306703119166,
    "rel_diff": -0.0020830801183604254,
+   "diff_target": -0.19414306703119166,
+   "rel_diff_target": -0.0020830801183604254,
    "expected": null,
    "expected_basis": null,
    "tolerance": {
@@ -600,6 +644,8 @@
    "computed": 2554.95168,
    "diff": 0.0016800000003058813,
    "rel_diff": 6.575471145446609e-07,
+   "diff_target": 0.0016800000003058813,
+   "rel_diff_target": 6.575471145446609e-07,
    "expected": null,
    "expected_basis": null,
    "tolerance": {
@@ -626,6 +672,8 @@
    "computed": 6742.37952,
    "diff": -0.0004799999996976112,
    "rel_diff": -7.119147833518894e-08,
+   "diff_target": -0.0004799999996976112,
+   "rel_diff_target": -7.119147833518894e-08,
    "expected": null,
    "expected_basis": null,
    "tolerance": {
@@ -652,6 +700,8 @@
    "computed": 0.47197894831645426,
    "diff": 0.0019789483164542876,
    "rel_diff": 0.0042105283328814636,
+   "diff_target": 0.0019789483164542876,
+   "rel_diff_target": 0.0042105283328814636,
    "expected": null,
    "expected_basis": null,
    "tolerance": {
@@ -678,6 +728,8 @@
    "computed": 158.33333333333331,
    "diff": -2.842170943040401e-14,
    "rel_diff": -1.7950553324465689e-16,
+   "diff_target": -2.842170943040401e-14,
+   "rel_diff_target": -1.7950553324465689e-16,
    "expected": null,
    "expected_basis": null,
    "tolerance": {
@@ -704,6 +756,8 @@
    "computed": 0.9854092199020157,
    "diff": -0.014590780097984313,
    "rel_diff": -0.014590780097984313,
+   "diff_target": -0.004590780097984304,
+   "rel_diff_target": -0.004637151614125559,
    "expected": 0.99,
    "expected_basis": "About 0.99 from various programs using the simplified Bishop method for the same verification example (HyGeoWorks internal test notes)",
    "tolerance": {
@@ -730,6 +784,8 @@
    "computed": 1.3415063508660081,
    "diff": -8.010170304828534e-11,
    "rel_diff": -5.9710267485348e-11,
+   "diff_target": -8.010170304828534e-11,
+   "rel_diff_target": -5.9710267485348e-11,
    "expected": null,
    "expected_basis": null,
    "tolerance": {
@@ -756,6 +812,8 @@
    "computed": 1.3203151482264577,
    "diff": -0.003684851773542386,
    "rel_diff": -0.002783120674880956,
+   "diff_target": -0.003684851773542386,
+   "rel_diff_target": -0.002783120674880956,
    "expected": null,
    "expected_basis": null,
    "tolerance": {
@@ -782,6 +840,8 @@
    "computed": 1.5268609642747792,
    "diff": -0.004139035725220674,
    "rel_diff": -0.0027034851242460317,
+   "diff_target": -0.004139035725220674,
+   "rel_diff_target": -0.0027034851242460317,
    "expected": null,
    "expected_basis": null,
    "tolerance": {
@@ -808,6 +868,8 @@
    "computed": 1.100607579234035,
    "diff": -0.001392420765965019,
    "rel_diff": -0.0012635397150317774,
+   "diff_target": -0.001392420765965019,
+   "rel_diff_target": -0.0012635397150317774,
    "expected": null,
    "expected_basis": null,
    "tolerance": {
@@ -834,6 +896,8 @@
    "computed": 1.195128093931437,
    "diff": 0.0021280939314369807,
    "rel_diff": 0.001783817209922029,
+   "diff_target": 0.0021280939314369807,
+   "rel_diff_target": 0.001783817209922029,
    "expected": null,
    "expected_basis": null,
    "tolerance": {
@@ -860,6 +924,8 @@
    "computed": 0.8869989852540107,
    "diff": -1.0147459893472544e-06,
    "rel_diff": -1.1440202811130263e-06,
+   "diff_target": -1.0147459893472544e-06,
+   "rel_diff_target": -1.1440202811130263e-06,
    "expected": null,
    "expected_basis": null,
    "tolerance": {
@@ -886,6 +952,8 @@
    "computed": 1.084217684712297,
    "diff": -2.3152877028920216e-06,
    "rel_diff": -2.1354408726015217e-06,
+   "diff_target": -2.3152877028920216e-06,
+   "rel_diff_target": -2.1354408726015217e-06,
    "expected": null,
    "expected_basis": null,
    "tolerance": {
@@ -912,6 +980,8 @@
    "computed": 1.6767724875179706,
    "diff": -0.00022751248202945717,
    "rel_diff": -0.00013566635779931852,
+   "diff_target": -0.00022751248202945717,
+   "rel_diff_target": -0.00013566635779931852,
    "expected": null,
    "expected_basis": null,
    "tolerance": {
@@ -938,6 +1008,8 @@
    "computed": 1.6252235584939183,
    "diff": -0.003776441506081696,
    "rel_diff": -0.0023182575236842824,
+   "diff_target": -0.003776441506081696,
+   "rel_diff_target": -0.0023182575236842824,
    "expected": null,
    "expected_basis": null,
    "tolerance": {
@@ -964,6 +1036,8 @@
    "computed": 1.595087397254849,
    "diff": 0.0010873972548488542,
    "rel_diff": 0.0006821814647734342,
+   "diff_target": 0.0010873972548488542,
+   "rel_diff_target": 0.0006821814647734342,
    "expected": null,
    "expected_basis": null,
    "tolerance": {
@@ -990,6 +1064,8 @@
    "computed": 2.4516624999999994,
    "diff": -4.440892098500626e-16,
    "rel_diff": -1.8113798691706654e-16,
+   "diff_target": -4.440892098500626e-16,
+   "rel_diff_target": -1.8113798691706654e-16,
    "expected": null,
    "expected_basis": null,
    "tolerance": {
@@ -1016,6 +1092,8 @@
    "computed": 34.970317954620754,
    "diff": -0.433372305379244,
    "rel_diff": -0.012240879473202237,
+   "diff_target": 4.62075178120358e-09,
+   "rel_diff_target": 1.321335364411115e-10,
    "expected": 34.97031795,
    "expected_basis": "SLAMMER starts and stops sliding at sample points, whereas this program solves the exact start and stop times between samples, giving a result about 1.2% lower; after the record is linearly refined by a factor of 50, SLAMMER converges to this value (difference < 2×10⁻⁵); an independent piecewise analytical integration in Python gives 34.97031795",
    "tolerance": {
@@ -1042,6 +1120,8 @@
    "computed": 152.66331514131542,
    "diff": -0.03668485868456628,
    "rel_diff": -0.00024024137972865936,
+   "diff_target": -0.03668485868456628,
+   "rel_diff_target": -0.00024024137972865936,
    "expected": null,
    "expected_basis": null,
    "tolerance": {
@@ -1068,6 +1148,8 @@
    "computed": 52.81271057066686,
    "diff": -0.02728942933314471,
    "rel_diff": -0.0005164539994917621,
+   "diff_target": 0.0027105706668564267,
+   "rel_diff_target": 5.132684466685148e-05,
    "expected": 52.81,
    "expected_basis": "Exact value P′2 = 0.27099·1.9·5.45 = 2.806 (rounded to 2.81 in the handbook), Mu = 52.81 (HyGeoWorks internal test notes)",
    "tolerance": {
@@ -1094,6 +1176,8 @@
    "computed": 23.45901280706183,
    "diff": -0.01098719293817041,
    "rel_diff": -0.0004681377476851474,
+   "diff_target": -0.0009871929381723987,
+   "rel_diff_target": -4.207983538671776e-05,
    "expected": 23.46,
    "expected_basis": "Using the exact value P′2 = 2.806, Vu = 23.46 (HyGeoWorks internal test notes)",
    "tolerance": {
@@ -1120,6 +1204,8 @@
    "computed": 33.121852975509235,
    "diff": 0.0018529755092373534,
    "rel_diff": 5.5947328177456325e-05,
+   "diff_target": 0.0018529755092373534,
+   "rel_diff_target": 5.5947328177456325e-05,
    "expected": null,
    "expected_basis": null,
    "tolerance": {
@@ -1146,6 +1232,8 @@
    "computed": 25.64396298221302,
    "diff": -3.0460370177869827,
    "rel_diff": -0.10617068727037235,
+   "diff_target": 0.0439629822130172,
+   "rel_diff_target": 0.0017173039926959843,
    "expected": 25.6,
    "expected_basis": "By the standard equation Rn = Mu/(φbd²) = 17.75 → ρ = 0.00446, As = 25.6 cm²/m; the handbook's 28.69 results from applying φ twice (HyGeoWorks internal test notes)",
    "tolerance": {
@@ -1172,6 +1260,8 @@
    "computed": 45.19180090337473,
    "diff": 0.011800903374727056,
    "rel_diff": 0.00026119750718740716,
+   "diff_target": 0.011800903374727056,
+   "rel_diff_target": 0.00026119750718740716,
    "expected": null,
    "expected_basis": null,
    "tolerance": {
@@ -1198,6 +1288,8 @@
    "computed": 1.3716196452371219,
    "diff": 0.0016196452371217696,
    "rel_diff": 0.0011822228008188098,
+   "diff_target": 0.0016196452371217696,
+   "rel_diff_target": 0.0011822228008188098,
    "expected": null,
    "expected_basis": null,
    "tolerance": {
@@ -1224,6 +1316,8 @@
    "computed": 1.5656508537173552,
    "diff": -0.004349146282644822,
    "rel_diff": -0.0027701568679266383,
+   "diff_target": -0.004349146282644822,
+   "rel_diff_target": -0.0027701568679266383,
    "expected": null,
    "expected_basis": null,
    "tolerance": {
@@ -1250,6 +1344,8 @@
    "computed": 12.761056902928981,
    "diff": -0.008943097071018258,
    "rel_diff": -0.0007003208356318135,
+   "diff_target": -0.008943097071018258,
+   "rel_diff_target": -0.0007003208356318135,
    "expected": null,
    "expected_basis": null,
    "tolerance": {
@@ -1276,6 +1372,8 @@
    "computed": 1.1188085357083606,
    "diff": -0.0011914642916395213,
    "rel_diff": -0.0010638074032495726,
+   "diff_target": -0.0011914642916395213,
+   "rel_diff_target": -0.0010638074032495726,
    "expected": null,
    "expected_basis": null,
    "tolerance": {
@@ -1302,6 +1400,8 @@
    "computed": 589.6726438013445,
    "diff": -0.3273561986554796,
    "rel_diff": -0.0005548410146703044,
+   "diff_target": -0.3273561986554796,
+   "rel_diff_target": -0.0005548410146703044,
    "expected": null,
    "expected_basis": null,
    "tolerance": {
@@ -1328,6 +1428,8 @@
    "computed": 16.900000000000002,
    "diff": 3.552713678800501e-15,
    "rel_diff": 2.1021974430772196e-16,
+   "diff_target": 3.552713678800501e-15,
+   "rel_diff_target": 2.1021974430772196e-16,
    "expected": null,
    "expected_basis": null,
    "tolerance": {
@@ -1354,6 +1456,8 @@
    "computed": 16.595506470957563,
    "diff": -0.04449352904243753,
    "rel_diff": -0.00267388996649264,
+   "diff_target": -0.004493529042438382,
+   "rel_diff_target": -0.0002706945206288182,
    "expected": 16.6,
    "expected_basis": "Exact value with KA = cos38° = 0.7880 (the source rounds KA to 0.79; HyGeoWorks internal test notes)",
    "tolerance": {
@@ -1380,6 +1484,8 @@
    "computed": 2.851702317274391,
    "diff": 0.011702317274391305,
    "rel_diff": 0.004120534251546235,
+   "diff_target": 0.0017023172743910742,
+   "rel_diff_target": 0.0005973043068038857,
    "expected": 2.85,
    "expected_basis": "2.85 using the exact centroid (2/3 × 8.8 = 5.867) (HyGeoWorks internal test notes)",
    "tolerance": {
@@ -1406,6 +1512,8 @@
    "computed": 1.3249943571979663,
    "diff": 0.004994357197966259,
    "rel_diff": 0.0037836039378532265,
+   "diff_target": 0.004994357197966259,
+   "rel_diff_target": 0.0037836039378532265,
    "expected": null,
    "expected_basis": null,
    "tolerance": {
@@ -1432,6 +1540,8 @@
    "computed": 1.7256039301785293,
    "diff": -0.004396069821470672,
    "rel_diff": -0.002541080821659348,
+   "diff_target": -0.004396069821470672,
+   "rel_diff_target": -0.002541080821659348,
    "expected": null,
    "expected_basis": null,
    "tolerance": {
@@ -1458,6 +1568,8 @@
    "computed": 1.284368746785755,
    "diff": -0.005631253214245069,
    "rel_diff": -0.004365312569182224,
+   "diff_target": -0.005631253214245069,
+   "rel_diff_target": -0.004365312569182224,
    "expected": null,
    "expected_basis": null,
    "tolerance": {
@@ -1484,6 +1596,8 @@
    "computed": 1.7879017033805074,
    "diff": 0.10590170338050742,
    "rel_diff": 0.06296177371017088,
+   "diff_target": -9.82966194926771e-05,
+   "rel_diff_target": -5.497573797129591e-05,
    "expected": 1.788,
    "expected_basis": "Standard M–O (sin(φ + δ) under the square root); Eq. 2.1.33 is printed with sin(φ + ε̄), which does not reduce to Eq. 2.1.13 when θ̄ = 0, and is judged to be a misprint (HyGeoWorks internal module notes)",
    "tolerance": {
@@ -1510,6 +1624,8 @@
    "computed": 0.9163742557571695,
    "diff": 0.1993742557571695,
    "rel_diff": 0.27806730231125454,
+   "diff_target": 0.00037425575716942827,
+   "rel_diff_target": 0.00040857615411509635,
    "expected": 0.916,
    "expected_basis": "Substituting the inputs listed in the example into Eq. 2.1.13 gives 0.916; the example's 0.717 cannot be reproduced from the listed δ 21.8° and α 10.13°, and the cause has not been identified (HyGeoWorks internal test notes)",
    "tolerance": {
@@ -1536,6 +1652,8 @@
    "computed": 22.402486271104557,
    "diff": 0.0024862711045585684,
    "rel_diff": 0.0001109942457392218,
+   "diff_target": 0.0024862711045585684,
+   "rel_diff_target": 0.0001109942457392218,
    "expected": null,
    "expected_basis": null,
    "tolerance": {
@@ -1562,6 +1680,8 @@
    "computed": 30.139627791519086,
    "diff": -0.00037220848091479297,
    "rel_diff": -1.234931920752465e-05,
+   "diff_target": -0.00037220848091479297,
+   "rel_diff_target": -1.234931920752465e-05,
    "expected": null,
    "expected_basis": null,
    "tolerance": {
@@ -1588,6 +1708,8 @@
    "computed": 0.0025540088519097263,
    "diff": 0.0025540088519097263,
    "rel_diff": null,
+   "diff_target": 0.0025540088519097263,
+   "rel_diff_target": null,
    "expected": null,
    "expected_basis": null,
    "tolerance": {
@@ -1614,6 +1736,8 @@
    "computed": 0.027778770760446624,
    "diff": 9.929826688438725e-07,
    "rel_diff": 3.574737607837941e-05,
+   "diff_target": 9.929826688438725e-07,
+   "rel_diff_target": 3.574737607837941e-05,
    "expected": null,
    "expected_basis": null,
    "tolerance": {
@@ -1640,6 +1764,8 @@
    "computed": 0.009560088608164301,
    "diff": 4.730595384978484e-05,
    "rel_diff": 0.004972882863914614,
+   "diff_target": 4.730595384978484e-05,
+   "rel_diff_target": 0.004972882863914614,
    "expected": null,
    "expected_basis": null,
    "tolerance": {
@@ -1666,6 +1792,8 @@
    "computed": 577274.9838134756,
    "diff": -0.006186524406075478,
    "rel_diff": -1.0716771925413706e-08,
+   "diff_target": -0.00018652447033673525,
+   "rel_diff_target": -3.231119925625172e-10,
    "expected": 577274.984,
    "expected_basis": "Substituting the source's intermediate values B and η into E = FE + k0·B·η gives 577 274.984 (the source's final value is inconsistent with its intermediate values; HyGeoWorks internal test notes)",
    "tolerance": {
@@ -1692,6 +1820,8 @@
    "computed": 3358297.3262059307,
    "diff": 0.00020593078806996346,
    "rel_diff": 6.131999882072487e-11,
+   "diff_target": 0.00020593078806996346,
+   "rel_diff_target": 6.131999882072487e-11,
    "expected": null,
    "expected_basis": null,
    "tolerance": {
@@ -1718,6 +1848,8 @@
    "computed": 2.9403895355713288,
    "diff": -0.0009304644286713959,
    "rel_diff": -0.0003163424682358247,
+   "diff_target": -0.0009304644286713959,
+   "rel_diff_target": -0.0003163424682358247,
    "expected": null,
    "expected_basis": null,
    "tolerance": {
@@ -1744,6 +1876,8 @@
    "computed": 107.80829849109354,
    "diff": 0.00829849109354086,
    "rel_diff": 7.698043686030483e-05,
+   "diff_target": 0.00829849109354086,
+   "rel_diff_target": 7.698043686030483e-05,
    "expected": null,
    "expected_basis": null,
    "tolerance": {
@@ -1770,6 +1904,8 @@
    "computed": 0.8080015371126756,
    "diff": -4.6288732435950664e-07,
    "rel_diff": -5.728789339129193e-07,
+   "diff_target": -4.6288732435950664e-07,
+   "rel_diff_target": -5.728789339129193e-07,
    "expected": null,
    "expected_basis": null,
    "tolerance": {
@@ -1796,6 +1932,8 @@
    "computed": 2287.0832581596737,
    "diff": 1.596736183273606e-07,
    "rel_diff": 6.981539380730344e-11,
+   "diff_target": 1.596736183273606e-07,
+   "rel_diff_target": 6.981539380730344e-11,
    "expected": null,
    "expected_basis": null,
    "tolerance": {
