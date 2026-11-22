@@ -47,6 +47,19 @@ Browser calculators compile the identical Rust calculation core to WebAssembly (
 - **Japan (日本語)**: [https://hygeoworks.com/ja/tools/](https://hygeoworks.com/ja/tools/) · [検証事例](https://hygeoworks.com/ja/benchmarks/)
 - **Free licences for PE reviewers and university faculty**: [https://hygeoworks.com/en/verify/#academic-reviewer-license](https://hygeoworks.com/en/verify/#academic-reviewer-license)
 
+## Benchmark groups you can also run online
+
+These browser calculators run the same calculation core as the cases below (enter the case inputs yourself; trial inputs stay in your browser):
+
+| Group | Cases | Online calculator |
+| :--- | :--- | :--- |
+| Culverts (FHWA HDS-5, HY-8 inlet control, outlet control) | C-01 – C-07 | [US customary](https://hygeoworks.com/us/tools/culvert-hydraulics/) · [SI](https://hygeoworks.com/en/tools/culvert-hydraulics/) · [繁體中文](https://hygeoworks.com/tw/tools/culvert-hydraulics/) · [日本語](https://hygeoworks.com/ja/tools/culvert-hydraulics/) |
+| Slope stability, circular slip surface (simplified Bishop) | S-01 | [SI](https://hygeoworks.com/en/tools/slope-stability-bishop/) · [US customary](https://hygeoworks.com/us/tools/slope-stability-bishop/) · [繁體中文](https://hygeoworks.com/tw/tools/slope-stability-bishop/) · [日本語](https://hygeoworks.com/ja/tools/slope-stability-bishop/) |
+| Cantilever retaining wall (Taiwan Soil and Water Conservation Handbook example) | W-01 – W-05 | [繁體中文](https://hygeoworks.com/tw/tools/retaining-wall/) |
+| Building-site water retention (Taiwan technical regulations) | D-01 – D-03 | [繁體中文](https://hygeoworks.com/tw/tools/site-water-retention-tw/) |
+
+The other groups (noncircular, reinforced and seismic slopes, MSE and gabion walls, check-dam stability, stilling basins and debris flow, bearing capacity factors, 2D flood inundation, coordinate transformation and the project workflow cases) run in the desktop program; see "Reproduce the results yourself" below.
+
 ## Reproduce the results yourself
 
 1. Download and install the free trial of HydroStudio for Windows 10/11 (64-bit): [https://hygeoworks.com/en/downloads/](https://hygeoworks.com/en/downloads/). No licence, card or account is needed; the benchmarks run in trial mode.
@@ -72,6 +85,7 @@ They check the calculation core against published worked examples, tabulated val
 本倉庫公開 HyGeoWorks HydroStudio 計算核心之 69 項驗證基準資料（1.0.1 版，2026-11-21 執行，通過 69 項）：案例、參考值與出處、判定目標與勘誤依據、容許差、計算值與判定，不含原始碼、資料庫與授權機制。安裝免費試用評估版後，於安裝資料夾執行 `hydro.exe verify-benchmarks --include-slow --out results` 即可自行重現。
 
 - 案例逐項表與勘誤見 [https://hygeoworks.com/benchmarks/](https://hygeoworks.com/benchmarks/) · 免安裝線上計算工作臺：[https://hygeoworks.com/tw/tools/](https://hygeoworks.com/tw/tools/)
+- 可於線上以同一計算核心試算之案例組：涵洞 HDS-5（C-01～C-07）[https://hygeoworks.com/tw/tools/culvert-hydraulics/](https://hygeoworks.com/tw/tools/culvert-hydraulics/)、圓弧滑動簡化 Bishop 法（S-01）[https://hygeoworks.com/tw/tools/slope-stability-bishop/](https://hygeoworks.com/tw/tools/slope-stability-bishop/)、水土保持手冊懸臂式擋土牆例題（W-01～W-05）[https://hygeoworks.com/tw/tools/retaining-wall/](https://hygeoworks.com/tw/tools/retaining-wall/)、建築基地保水（D-01～D-03）[https://hygeoworks.com/tw/tools/site-water-retention-tw/](https://hygeoworks.com/tw/tools/site-water-retention-tw/)；其餘案例組以桌面版執行
 - 審查委員與大專教師免費授權申請：[https://hygeoworks.com/verify/#academic-reviewer-license](https://hygeoworks.com/verify/#academic-reviewer-license)
 
 ## 日本語
@@ -80,6 +94,7 @@ HyGeoWorks HydroStudio の計算コアの検証ベンチマーク 69 件（1.0.1
 
 - 検証事例の概要・試用版：[https://hygeoworks.com/ja/benchmarks/](https://hygeoworks.com/ja/benchmarks/) · [https://hygeoworks.com/ja/downloads/](https://hygeoworks.com/ja/downloads/)
 - インストール不要のオンラインツール：[https://hygeoworks.com/ja/tools/](https://hygeoworks.com/ja/tools/)
+- オンラインツールで同じ計算コアを試せる事例：カルバート HDS-5（C-01～C-07）[https://hygeoworks.com/ja/tools/culvert-hydraulics/](https://hygeoworks.com/ja/tools/culvert-hydraulics/)、円弧すべり 簡易 Bishop 法（S-01）[https://hygeoworks.com/ja/tools/slope-stability-bishop/](https://hygeoworks.com/ja/tools/slope-stability-bishop/)。その他の事例はデスクトップ版で実行します
 - 審査担当者・大学教員向け無料ライセンス：[https://hygeoworks.com/ja/verify/#academic-reviewer-license](https://hygeoworks.com/ja/verify/#academic-reviewer-license)
 
 ## License
