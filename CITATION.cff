@@ -4,8 +4,38 @@ message: "If you cite this engineering verification dataset or documented litera
 type: dataset
 authors:
   - name: "Ascend Neural, LLC (HyGeoWorks)"
+    alias: "HyGeoWorks"
     website: "https://hygeoworks.com/en/"
+abstract: "69 verification cases for the HyGeoWorks HydroStudio calculation core (hydrology, culverts, energy dissipation and debris flow, detention and site water retention, slope stability, retaining walls including MSE walls and gabions, check dams, bearing capacity, 2D flood inundation, coordinate transformation, the project-file workflow, and two independently implemented liquefaction and pile examples), each with its published reference value and source, the target actually checked, tolerance, computed value and result. Literature misprints are documented in ERRATA.md instead of widening the tolerance."
+keywords:
+  - civil engineering
+  - geotechnical engineering
+  - hydraulics
+  - hydrology
+  - stormwater
+  - culvert
+  - FHWA HDS-5
+  - HEC-22
+  - EPA SWMM
+  - slope stability
+  - retaining wall
+  - MSE wall
+  - check dam
+  - detention pond
+  - flood modeling
+  - verification
+  - benchmark
 url: "https://hygeoworks.com/en/benchmarks/"
+identifiers:
+  - type: url
+    value: "https://hygeoworks.com/benchmarks/"
+    description: "Verification records with case-by-case tables and errata (Traditional Chinese)"
+  - type: url
+    value: "https://hygeoworks.com/en/benchmarks/"
+    description: "Verification page (English)"
+  - type: url
+    value: "https://hygeoworks.com/ja/benchmarks/"
+    description: "Verification page (Japanese)"
 repository-code: "https://github.com/hygeoworks/hydrostudio-benchmarks"
 version: "1.0.1"
 date-released: "2026-11-21"
