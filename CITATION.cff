@@ -26,7 +26,11 @@ keywords:
   - verification
   - benchmark
 url: "https://hygeoworks.com/en/benchmarks/"
+doi: 10.5281/zenodo.24458320
 identifiers:
+  - type: doi
+    value: 10.5281/zenodo.24458320
+    description: "Zenodo concept DOI (resolves to the latest release)"
   - type: url
     value: "https://hygeoworks.com/benchmarks/"
     description: "Verification records with case-by-case tables and errata (Traditional Chinese)"

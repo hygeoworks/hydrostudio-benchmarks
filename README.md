@@ -1,5 +1,7 @@
 # HydroStudio verification benchmarks
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24458320.svg)](https://doi.org/10.5281/zenodo.24458320)
+
 Public benchmark data for the **HyGeoWorks HydroStudio** calculation core (hydrology, hydraulics, detention, slope stability, retaining walls, check dams, 2D flood and coordinate transformation).
 The same Rust calculation core runs the Windows desktop program, the `hydro` command line and the browser calculators at [hygeoworks.com](https://hygeoworks.com/).
 
