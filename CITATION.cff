@@ -41,6 +41,6 @@ identifiers:
     value: "https://hygeoworks.com/ja/benchmarks/"
     description: "Verification page (Japanese)"
 repository-code: "https://github.com/hygeoworks/hydrostudio-benchmarks"
-version: "1.0.2"
-date-released: "2026-11-23"
+version: "1.0.3"
+date-released: "2026-11-24"
 license: CC-BY-4.0
