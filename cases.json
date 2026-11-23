@@ -1,10 +1,10 @@
 {
  "meta": {
   "product": "HyGeoWorks HydroStudio",
-  "version": "1.0.1",
-  "run_date": "2026-11-21",
+  "version": "1.0.2",
+  "run_date": "2026-11-23",
   "executable": "hydro.exe (release build, run without a licence: trial evaluation)",
-  "executable_sha256": "d5fcdef737cd05edc1b596d3c87eb15e6c97ecd479fe9fc542d03f1430d005ba",
+  "executable_sha256": "b3e35e56456bb8c497e02e905b82d64b4c54afd0c7ec46e12850ead358180261",
   "command": "hydro verify-benchmarks --include-slow",
   "summary": {
    "total": 69,
