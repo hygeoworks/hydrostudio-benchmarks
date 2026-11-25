@@ -41,6 +41,6 @@ identifiers:
     value: "https://hygeoworks.com/ja/benchmarks/"
     description: "Verification page (Japanese)"
 repository-code: "https://github.com/hygeoworks/hygeoworks-benchmarks"
-version: "1.0.3"
-date-released: "2026-11-24"
+version: "1.0.4"
+date-released: "2026-11-25"
 license: CC-BY-4.0
