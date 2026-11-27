@@ -5,7 +5,7 @@
 Public benchmark data for the **HyGeoWorks Desktop** calculation core (hydrology, hydraulics, detention, slope stability, retaining walls, check dams, 2D flood and coordinate transformation).
 The same Rust calculation core runs the Windows desktop program, the `hydro` command line and the browser calculators at [hygeoworks.com](https://hygeoworks.com/).
 
-**Release 1.0.4, run 2026-11-25: 69 of 69 cases pass** (failed 0, errors 0).
+**Release 1.0.5, run 2026-11-27: 69 of 69 cases pass** (failed 0, errors 0).
 Reference values by kind: Published example / tabulated value 51; Analytical solution 7; Verification example from other software 9; Independent-implementation example (not from literature) 2.
 
 Key cross-check metrics:
@@ -71,7 +71,7 @@ The other groups (noncircular, reinforced and seismic slopes, MSE and gabion wal
    hydro.exe verify-benchmarks --include-slow --out results
    ```
 
-3. Compare `results\benchmarks.json` (and `benchmarks.md`, `.xlsx`, `.docx`, written in Traditional Chinese) with [`cases.json`](cases.json), whose computed values come from the release executable with SHA-256 `aaac18d7257ac7b7996db6202c109a14a9ce6d560774848921403f90dd125bab`.
+3. Compare `results\benchmarks.json` (and `benchmarks.md`, `.xlsx`, `.docx`, written in Traditional Chinese) with [`cases.json`](cases.json), whose computed values come from the release executable with SHA-256 `8cf8bee14a48d9dec61903f9c7b9bbdd34eeeeb481dc42adc7dde22bfd621fe3`.
 
 `hydro.exe verify-benchmarks --list` prints every case with its reference value and source. Runs are deterministic: the same release gives the same computed values.
 
@@ -84,7 +84,7 @@ They check the calculation core against published worked examples, tabulated val
 
 ## 繁體中文
 
-本倉庫公開 HyGeoWorks 桌面版計算核心之 69 項驗證基準資料（1.0.4 版，2026-11-25 執行，通過 69 項）：案例、參考值與出處、判定目標與勘誤依據、容許差、計算值與判定，不含原始碼、資料庫與授權機制。安裝免費試用評估版後，於安裝資料夾執行 `hydro.exe verify-benchmarks --include-slow --out results` 即可自行重現。
+本倉庫公開 HyGeoWorks 桌面版計算核心之 69 項驗證基準資料（1.0.5 版，2026-11-27 執行，通過 69 項）：案例、參考值與出處、判定目標與勘誤依據、容許差、計算值與判定，不含原始碼、資料庫與授權機制。安裝免費試用評估版後，於安裝資料夾執行 `hydro.exe verify-benchmarks --include-slow --out results` 即可自行重現。
 
 - 案例逐項表與勘誤見 [https://hygeoworks.com/benchmarks/](https://hygeoworks.com/benchmarks/) · 免安裝線上計算工作臺：[https://hygeoworks.com/tw/tools/](https://hygeoworks.com/tw/tools/)
 - 可於線上以同一計算核心試算之案例組：涵洞 HDS-5（C-01～C-07）[https://hygeoworks.com/tw/tools/culvert-hydraulics/](https://hygeoworks.com/tw/tools/culvert-hydraulics/)、圓弧滑動簡化 Bishop 法（S-01）[https://hygeoworks.com/tw/tools/slope-stability-bishop/](https://hygeoworks.com/tw/tools/slope-stability-bishop/)、水土保持手冊懸臂式擋土牆例題（W-01～W-05）[https://hygeoworks.com/tw/tools/retaining-wall/](https://hygeoworks.com/tw/tools/retaining-wall/)、建築基地保水（D-01～D-03）[https://hygeoworks.com/tw/tools/site-water-retention-tw/](https://hygeoworks.com/tw/tools/site-water-retention-tw/)；其餘案例組以桌面版執行
@@ -92,7 +92,7 @@ They check the calculation core against published worked examples, tabulated val
 
 ## 日本語
 
-HyGeoWorks デスクトップ版の計算コアの検証ベンチマーク 69 件（1.0.4 版、2026-11-25 実行、69 件合格）のデータを公開しています。事例、参照値と出典、許容差、計算値と判定のみで、ソースコード・データベース・ライセンス機構は含みません。無料の評価版をインストールし、インストール先で `hydro.exe verify-benchmarks --include-slow --out results` を実行すると、同じ結果を確認できます。
+HyGeoWorks デスクトップ版の計算コアの検証ベンチマーク 69 件（1.0.5 版、2026-11-27 実行、69 件合格）のデータを公開しています。事例、参照値と出典、許容差、計算値と判定のみで、ソースコード・データベース・ライセンス機構は含みません。無料の評価版をインストールし、インストール先で `hydro.exe verify-benchmarks --include-slow --out results` を実行すると、同じ結果を確認できます。
 
 - 検証事例の概要・試用版：[https://hygeoworks.com/ja/benchmarks/](https://hygeoworks.com/ja/benchmarks/) · [https://hygeoworks.com/ja/downloads/](https://hygeoworks.com/ja/downloads/)
 - インストール不要のオンラインツール：[https://hygeoworks.com/ja/tools/](https://hygeoworks.com/ja/tools/)
@@ -101,5 +101,5 @@ HyGeoWorks デスクトップ版の計算コアの検証ベンチマーク 69 �
 
 ## License
 
-The data and documents in this repository are licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). Cite as: Ascend Neural, LLC (HyGeoWorks), *HyGeoWorks verification benchmarks*, release 1.0.4.
+The data and documents in this repository are licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). Cite as: Ascend Neural, LLC (HyGeoWorks), *HyGeoWorks verification benchmarks*, release 1.0.5.
 HyGeoWorks Desktop itself is commercial software and is not covered by this licence.

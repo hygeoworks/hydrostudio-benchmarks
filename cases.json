@@ -1,10 +1,10 @@
 {
  "meta": {
   "product": "HyGeoWorks Desktop",
-  "version": "1.0.4",
-  "run_date": "2026-11-25",
+  "version": "1.0.5",
+  "run_date": "2026-11-27",
   "executable": "hydro.exe (release build, run without a licence: trial evaluation)",
-  "executable_sha256": "aaac18d7257ac7b7996db6202c109a14a9ce6d560774848921403f90dd125bab",
+  "executable_sha256": "8cf8bee14a48d9dec61903f9c7b9bbdd34eeeeb481dc42adc7dde22bfd621fe3",
   "command": "hydro verify-benchmarks --include-slow",
   "summary": {
    "total": 69,
